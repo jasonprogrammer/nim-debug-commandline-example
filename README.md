@@ -37,5 +37,5 @@ $2 = "John"
 
 The `nim-gdb.py` script was copied from [here](https://github.com/nim-lang/Nim/blob/master/tools/nim-gdb.py),
 and exists in this repository simply to reduce the number of steps in setting this up. It might be a good
-idea to update your  copy of this file with the olocalfficial latest file from the repository.
+idea to update your copy of this file with the official latest file from the repository.
 
