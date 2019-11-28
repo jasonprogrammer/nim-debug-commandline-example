@@ -11,7 +11,7 @@ The steps below demonstrate how to debug [Nim](https://nim-lang.org/) code from 
 ## Debugging
 
 1. Run `./build.sh` to build an executable.
-2. Run `./bin/debug.sh` to start a debugging session.
+2. Run `./debug.sh` to start a debugging session.
 3. A GDB session should start, and allow you to set breakpoints and print variables, e.g.:
 
 ```
