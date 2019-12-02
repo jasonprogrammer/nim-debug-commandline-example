@@ -59,6 +59,6 @@ $1 = "bob"
 
 6. The plugin also provides [additional commands](https://github.com/mechatroner/minimal_gdb#commands) that are helpful, e.g.:
 
-- MinGDBDeleteAll: Delete all breakpoints
-- MinGDBListAll: Show all of the breakpoints in a Quickfix buffer
-- MinGDBShowBreakpoints: Display the breakpoints in a file (useful if you exit the file and want to load breakpoints when reopening)
+- `MinGDBDeleteAll`: Delete all breakpoints
+- `MinGDBListAll`: Show all of the breakpoints in a Quickfix buffer
+- `MinGDBShowBreakpoints`: Display the breakpoints in a file (useful if you exit the file and want to load breakpoints when reopening)
