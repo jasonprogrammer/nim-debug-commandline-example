@@ -1,7 +1,7 @@
 # How to save breakpoints in Nim code from Vim, for command-line GDB debugging
 
 There is an easy-to-use Vim plugin that helps save and load GDB breakpoints to/from disk.
-This plugin works great with Nim code as well.
+This plugin works great with Nim code.
 
 ## Prerequisites
 
