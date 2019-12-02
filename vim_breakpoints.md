@@ -1,6 +1,6 @@
 # How to save breakpoints in Nim code from Vim, for command-line GDB debugging
 
-There is an easy-to-use Vim plugin that helps save and load GDB breakpoints.
+There is an easy-to-use Vim plugin that helps save and load GDB breakpoints to/from disk.
 This plugin works great with Nim code as well.
 
 ## Prerequisites
@@ -17,13 +17,14 @@ Plug 'mechatroner/minimal_gdb'
 
 to my `~/.config/nvim/init.vim` [Neovim](https://neovim.io/) config file and
 ran `:PlugInstall`.
-3. Find a line of Nim code, and press `<leader>b`, or run `:MinGDBToggleBP` to
+
+4. Find a line of Nim code, and press `<leader>b`, or run `:MinGDBToggleBP` to
 toggle a breakpoint. You should see a visual indicator of the breakpoint in the
 editor:
 
 ![show the GDB breakpoint indicator in Vim](images/breakpoint1.png)
 
-4. The breakpoints are saved to disk (see your `~/.gdbinit` for details).
+5. The breakpoints are saved to disk (see your `~/.gdbinit` for details).
 Now you can start debugging from the command-line and use the breakpoint, e.g.:
 
 ```
@@ -56,3 +57,8 @@ $1 = "bob"
 (gdb)
 ```
 
+6. The plugin also provides [additional commands](https://github.com/mechatroner/minimal_gdb#commands) that are helpful, e.g.:
+
+- MinGDBDeleteAll: Delete all breakpoints
+- MinGDBListAll: Show all of the breakpoints in a Quickfix buffer
+- MinGDBShowBreakpoints: Display the breakpoints in a file (useful if you exit the file and want to load breakpoints when reopening)
